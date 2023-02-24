@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+.Login{
+
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+    width: 100%;
+    height: 100vh;
+}
+
+.head{
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    font-size: 30px;
+    font-family: "Fredoka One";
+    color: white;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.container .email{
+    position: absolute;
+    bottom: 60px;
+    width: 385px;
+    height: 67px;
+    border-radius: 30px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    outline: none;
+
+    
+}
+
+.container .passwrd{
+    position: absolute;
+    width: 385px;
+    height: 67px;
+    border-radius: 30px;
+    text-indent: 20px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    outline: none;
+}
+
+.lgin{
+    position: absolute;
+    width:137px;
+    height: 58px;
+    border-radius: 20px;
+    top: 150px;
+    left: 130px;
+    cursor: pointer;
+    font-family: "Fredoka One";
+    color: grey;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+
+
+.signup{
+
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.header{
+    position: absolute;
+    font-family: "Fredoka One";
+    font-size:30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:20%;
+}
+.credentials{
+    text-indent: 12px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+
+    width: 385px;
+    height: 67px;
+    left: 541px;
+    top: 334px; 
+    border-radius: 30px;
+    outline: none;
+}
+
+
+.email-enter{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+
+    
+}
+
+.enter-passwrd{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.reenter-passwrd{
+
+    position: absolute;
+    left: 40%;
+    top: 65%;
+
+}
+
+.btn{
+    position: absolute;
+    width: 137px;
+    height: 58px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size:20px;
+    font-family:"Fredoka One";
+    color: grey;
+    top: 80%;
+    left:50%;
+    transform: translate(-55px);
+
+}
+

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+.school-icon{
+    position: absolute;
+    width: 500px;
+    top: 15%;
+    left: 40%;
+}
+.rent-page{
+
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-1{
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+    height: 82px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    width: 100%;
+}
+.search-housing{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.search-housing input{
+    width: 500px;
+    border-radius:30px;
+    height: 40px;
+    text-indent: 40px;
+    outline: none;
+}
+
+.search-housing img{
+    width: 15px;
+    position: absolute;
+    right: 470px;
+    top: 13px;
+    cursor: pointer;
+}
+
+
+.sidemenu{
+   
+    width: 256px;
+    height: 100vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.Dis{
+
+    position: absolute;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color: #75667A;
+    text-align: center;
+
+    width: 256px;
+
+    top: 100px;
+    
+    
+}
+
+.sidemenu li {
+    list-style-type: none;
+    
+}
+
+
+/*work on checkbox styling later*/
+
+.sidemenu .chec-distance{
+    position: absolute;
+    top: 150px;
+    width: 256px;
+    left: 55px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color: #75667A
+}
+
+
+.Pri{
+    position: absolute;
+    top: 250px;
+    width: 256px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color:#75667A;
+
+}
+
+
+.label{
+    position: absolute;
+    width: 256px;
+    top:300px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color:#75667A;
+}
+
+/*work on range styling later*/
+.range-price{
+    position: absolute;
+    top: 330px;
+    width: 256px;
+    text-align: center;
+
+}
+
+
+.Roo{
+    position: absolute;
+    top: 380px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color:#75667A;
+    width: 256px;
+    text-align: center;
+
+}
+
+.chec-room{
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    font-size: 20px;
+    font-family: "Fredoka One";
+    color:#75667A
+}
+
+.chec-room li{
+    padding: 5px;
+}
+
+
+/*styling header navigations */
+
+
+
+.contents ul{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-top: 10px;
+    
+    
+
+}
+
+.contents li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.contents li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #EBC1E7;
+    font-family: "Fredoka One";
+}
+
+.contents li a:hover{
+    color:#75667A;
+}
+
+.contents li img{
+    width: 30px;
+}
+
+
+
+
+
+
