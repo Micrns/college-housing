@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+.main-page{
+
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-page #header{
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 40px;
+    color: #EBC1E7;
+
+    position: absolute;
+    top: 60%;
+    left: 5%;
+
+    width: 748px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-top: 10px;
+
+
+}
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #EBC1E7;
+    font-family: "Fredoka One";
+}
+
+.navbar li img{
+    width: 30px;
+    
+
+    
+
+}
+
+.navbar li a:hover{
+    color:#75667A;
+    
+}
+
+/* Search bar */
+
+.search-bar input{
+    border-radius: 30px;
+    width: 638px;
+    height: 67px;
+    font-size: 12px;
+    font-family: "Fredoka One";
+    outline: none;
+    text-indent: 80px;
+    
+
+}
+
+.search-bar{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.search-bar img{
+    position: absolute;
+    width: 30px;
+    z-index: 1;
+    cursor: pointer;
+
+    right: 91%;
+    top: 28%;
+
+}
+
+
+
+
